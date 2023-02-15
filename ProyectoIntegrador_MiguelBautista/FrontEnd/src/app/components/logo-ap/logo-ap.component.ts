@@ -7,7 +7,7 @@ import { TokenService } from 'src/app/service/token.service';
   templateUrl: './logo-ap.component.html',
   styleUrls: ['./logo-ap.component.css']
 })
-export class LogoAPComponent {
+export class LogoAPComponent implements OnInit {
   isLogged = false;
 
 

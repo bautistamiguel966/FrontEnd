@@ -3,9 +3,9 @@ import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { TokenService } from "./token.service";
 
-// @Injectable({
-//     prividedIn:'root'
-// })
+@Injectable({
+    providedIn:'root'
+})
 export class InterceptorService {
     constructor(private tokenService: TokenService){}
 
@@ -22,6 +22,7 @@ export class InterceptorService {
 }
 
 export const interceptorProvider = [{
-    provide: HTTP_INTERCEPTORS, useClass: InterceptorService,
+    provide: HTTP_INTERCEPTORS, 
+    useClass: InterceptorService,
     multi: true
 }];

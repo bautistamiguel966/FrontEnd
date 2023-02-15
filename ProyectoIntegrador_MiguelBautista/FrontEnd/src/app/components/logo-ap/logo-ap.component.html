@@ -11,7 +11,7 @@
             <a href=""><img src="../../../assets/twitter.png" id="twitter"></a>
             <a href=""><img src="../../../assets/github.png" id="github"></a>
             <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
-            <!-- <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="!isLogged">CERRAR SESION</button> -->
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
             
         </div>
     </div>

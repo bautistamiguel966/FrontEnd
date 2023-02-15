@@ -43,7 +43,7 @@ import { interceptorProvider } from './service/interceptor-service';
     ReactiveFormsModule
   ],
   providers: [
-    // interceptorProvider
+    interceptorProvider
   ],
   bootstrap: [AppComponent]
 })

@@ -12,7 +12,8 @@ export const environment = {
     authDomain: 'bmafrontend-e8b56.firebaseapp.com',
     messagingSenderId: '493237567727',
   },
-
+  production: false,
+  URL: 'http://localhost:8080/'
 
 };
 

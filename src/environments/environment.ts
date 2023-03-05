@@ -4,13 +4,13 @@
 
 export const environment = {
   firebase: {
-    projectId: 'pruebas-a7590',
-    appId: '1:692001349405:web:2a13f33e3745562a360bf4',
-    storageBucket: 'pruebas-a7590.appspot.com',
+    projectId: 'bmafrontend-e8b56',
+    appId: '1:493237567727:web:abe64881fe4b14c1e35b1a',
+    storageBucket: 'bmafrontend-e8b56.appspot.com',
     locationId: 'southamerica-east1',
-    apiKey: 'AIzaSyCSUOZT6LzSjzv3t-PzcEL16ykRUHP8PTo',
-    authDomain: 'pruebas-a7590.firebaseapp.com',
-    messagingSenderId: '692001349405',
+    apiKey: 'AIzaSyD4J2WZe8OobfVNo0FkuM0LveoqTSGKFVo',
+    authDomain: 'bmafrontend-e8b56.firebaseapp.com',
+    messagingSenderId: '493237567727',
   },
   production: false,
   URL: 'http://localhost:8080/'

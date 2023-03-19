@@ -3,16 +3,17 @@
         <div class="logo">
             <img src="../../../assets/APLogo.png" id="logoAP">
         </div>
-        <div class="redes">
+        <div class="redes-botones">
+            <div class="redes">
             
-            <a href=""><img src="../../../assets/linkedin.png" id="linkedin"></a>
-            <a href=""><img src="../../../assets/facebook.png" id="facebook"></a>
-            <a href=""><img src="../../../assets/instagram.png" id="instagram"></a>
-            <a href=""><img src="../../../assets/twitter.png" id="twitter"></a>
-            <a href=""><img src="../../../assets/github.png" id="github"></a>
-            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
-            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
-            
+                <a href="https://www.linkedin.com/in/miguel-%C3%A1ngel-bautista-953a81265/" target="_blank"><img src="../../../assets/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../../../assets/instagram.png" alt="instagram"></a>
+                <a href="https://github.com/bautistamiguel966" target="_blank"><img src="../../../assets/github.png" alt="Github"></a>
+            </div>
+            <div class="row" id="botones">
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+            </div>
         </div>
     </div>
 </div>

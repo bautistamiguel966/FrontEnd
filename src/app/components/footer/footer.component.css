@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .row{
-    background-color: #a1b5cb;
+    /* background-color: #a1b5cb; */
+    /* background-color: #03045e; */
+    background-color: #0077b6;
 }
 footer{
     color: #fefefe;
@@ -7,5 +14,5 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 2px -2px 5px #999;
+    /* box-shadow: 2px -2px 5px #999; */
 }

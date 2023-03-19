@@ -1,11 +1,15 @@
+
+<div class="row">
+  <h1>Hard & Soft skills</h1>
+  
+  <div class="col-lg-2">
+    <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged"><i class="bi bi-plus-square"></i>Agregar Skill</button>
+  </div>
+</div>
+
 <div class="row">
 
-  <h1>Hard & Soft skills</h1>
-  <div class="col-lg-2">
-    <button type="button" routerLink="/newskill" class="btn btn-dark" *ngIf="isLogged">Nueva Skill</button>
-  </div>
-
-  <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" *ngFor="let skill of skill">
+  <div class="text-center col-sm-6 col-md-6 col-lg-4 circulo" *ngFor="let skill of skill" id="barras">
     <circle-progress
       [percent]="skill.porcentaje"
       [radius]="100"
@@ -14,14 +18,12 @@
       [titleColor]="'#212F3C'"
       [showTitle]="true"
       [showImage]="false"
-      [imageHeight]="70"
-      [imageWidth]="70"
       [showUnits]="false"
       [showSubtitle]="false"
       [outerStrokeWidth]="16"
       [innerStrokeWidth]="2"
-      [outerStrokeColor]="'#78C000'"
-      [innerStrokeColor]="'#C7E596'"
+      [outerStrokeColor]="'#0077b6'"
+      [innerStrokeColor]="'#625aa0'"
       [animation]="true"
       [animationDuration]="600"
     ></circle-progress>

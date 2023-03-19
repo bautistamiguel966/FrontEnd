@@ -1,7 +1,15 @@
+.row{
+    width: 100%;
+}
+
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.redes-botones{
+    display: flex;
+    gap: 10%;
 }
 #logoAP{
     width: 150px;
@@ -9,11 +17,17 @@
 img{
     width: 50px;
 }
+
 .redes{
     margin-right: 0.5em;
+    display: flex;
+    gap: 5%;
 }
 .btn{
     border-width: medium;
+}
+#botones{
+    margin-right: 1vw;
 }
 /*Para la vista de celular*/
 @media (max-width:575px){
@@ -22,11 +36,22 @@ img{
     }
     .redes{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
     .redes img{
         margin: 0.2em;
     }
+    .redes-botones{
+        display: flex;
+        flex-direction: column;
+    }
+    #botones{
+        justify-content: flex-start;
+        margin-top: 10%;
+        margin-left: 3%;
+        margin-bottom: 10%;
+    }
+
 
 }

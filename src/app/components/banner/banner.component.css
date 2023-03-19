@@ -1,4 +1,30 @@
 img{
     width: 100%;
-    height: 600px;
+    height: 500px;
+}
+
+.row{
+    margin: 0;
+}
+
+@media(max-width:750px){
+    #banner{
+        height: 55vh;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:564px){
+    #banner{
+        height: 40vh;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
 }

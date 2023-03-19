@@ -1,38 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: #ffffff
+}
+.descripcion p{
+    font-size: large;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#foto{
+    display: flex;
+    flex-direction: column;
+}
+#nombre{
+    font-size: large;
+    font-weight: bold;
+}
+#row-nombre p{
+    font-size: large;
+    font-weight: bold;
+}
+#row-foto{
+    width: 18vw;
+}
+
+#edit-persona{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1%;
+}
+
 .row{
     padding: 20px;
+    margin: 0;
 }
 div{
-    background-color: #a1b5cb;
-    text-align: center;
+    /* background-color: #a1b5cb; */
+    background-color: #0077b6;
+    /* text-align: center; */
 }
-/*Estilo de la foto de perfil*/
-@media (min-width: 576px){
-    #fotodeperfil{
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-    }
+.edit{
+    display: flex;
+    justify-content: flex-start;
+}
 
-    .descripcion {
+
+#fotodeperfil{
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 767px){
+    #row-foto{
+        width: 35vw;
+    }
+    #foto{
         display: flex;
         justify-content: center;
+        align-content: center;
         align-items: center;
     }
+    #row-nombre{
+        justify-content: center;
+        text-align: center;
+    }
+    .edit{
+        justify-content: center;
+    }
 }
+
 @media (max-width: 575px){
     #fotodeperfil{
-        position: absolute;
-        width: 30%;
+        /* position: absolute; */
+        width: 100vw;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 33%;
         top: 950px;
     }
-}
 
-/*etiqueta nombre*/
-#nombre{
-    font-weight: bold;
-    margin-top: 30%;
-    
+    #row-foto{
+        width: 50vw;
+    }
+} 
+
+@media(max-width: 340px){
+    #row-foto{
+        width: 80vw;
+    }
+    /* #foto{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    #row-nombre{
+        justify-content: center;
+        text-align: center;
+    }
+    .edit{
+        justify-content: center;
+    } */
 }
 

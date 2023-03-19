@@ -1,0 +1,19 @@
+.row{
+    background-color: #caf0f8;
+    height: 40vh;
+    width: 80%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 3%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
